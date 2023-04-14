@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestNG Practice Session]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Testing Different testNG features(failed)">
+    <classes>
+      <class name="com.testNG.TestNG_DependsOnMethods">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="googleSearchTest"/>
+          <include name="googleTitleTest"/>
+          <include name="googleLogoTest"/>
+        </methods>
+      </class> <!-- com.testNG.TestNG_DependsOnMethods -->
+    </classes>
+  </test> <!-- Testing Different testNG features(failed) -->
+</suite> <!-- Failed suite [TestNG Practice Session] -->

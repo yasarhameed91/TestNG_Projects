@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestNG Practice Session" >
+  <test name="Testing Different testNG features">
+    <classes>
+      <class name="com.testNG.TestNG_Basics"/>
+	  <class name="com.testNG.TestNG_DependsOnMethods"/> 
+	  <class name="com.testNG.TestNG_GroupBy"/>
+	  <class name="com.testNG.TestNG_Priority"/> 
+	  <class name="com.testNG.TestNG_InvocationCount"/> 
+    </classes>
+  </test> 
+</suite> 
